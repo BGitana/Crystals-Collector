@@ -146,7 +146,8 @@
   }
   
   h2 {
-    margin: 20px 200px;
+    /* margin: 20px 200px; */
+    margin: 0px 200px;
     color: rgb(248, 245, 241);
     font-family: "Source Serif Pro", serif;
     font-style: italic;
@@ -189,11 +190,16 @@
   }
   
   .navbar2 {
-    height: 12%;
+    height: 14%;
     box-shadow: 25px 25px 180px 25px #026fe4;
     background-color: #026fe4;
     opacity: 0.6;
     filter: alpha(opacity=60);
+    position: fixed;
+  }
+
+  a.nav.link {
+      padding-bottom: 0;
   }
   
   .row {
@@ -204,7 +210,8 @@
   }
 
   .bar {
-    height: 35%;
+    height: 300px;
     width: 100vw;
+    background-color: transparent;
   }
   

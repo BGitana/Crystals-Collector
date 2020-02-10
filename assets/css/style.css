@@ -198,7 +198,7 @@ padding-bottom: 0;
   
   .navbar2 {
     /* z-index: 1; */
-    height: 140px;
+    height: 15%;
     box-shadow: 25px 25px 180px 25px #026fe4;
     background-color: #026fe4;
     opacity: 0.6;
@@ -210,5 +210,11 @@ padding-bottom: 0;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+  }
+
+  .bar {
+    height: 25%;
+    width: 100vw;
+
   }
   

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Crystals Collector Game</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> -->
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Prata|Source+Serif+Pro&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom styling for this template -->
+    <link href="./assets/css/style.css" rel="stylesheet" />
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+
+    <!-- //////////////////////////////////////////////// -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <!-- //////////////////////////////////////////////// -->
+  </head>
+
+  <body>
+    <section id="showcase">
+      <div class="bg-image"></div>
+      <h1 class="mt-5">Crystals Collector</h1>
+
+      <div class="playBtn"></div>
+
+      <!-- //////////////////////////////////////////////////////// -->
+
+      <!-- //////////////DISPLAY BUTTONS///////////////////// -->
+      <div class="row text-center col-lg-12">
+        <div class="col-lg-6 col-md-8 mb-4">
+          <div class="card h-100" id="card-body">
+            <div class="card-body" id="card10">
+              <p class="card-title">Match this Number & Win:</p>
+              <h3 class="card-title" id="goalNumber">0</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-8 mb-4">
+          <div class="card h-100" id="card-body">
+            <div class="card-body" id="card11">
+              <p class="card-title">Your Total Crystal Score:</p>
+              <h3 class="card-title" id="totalScore">0</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- //////////////DISPLAY BUTTONS///////////////////// -->
+
+        <div class="col-lg-3 col-md-2 mb-6">
+          <div class="card h-100">
+            <div class="card-body1 grow">
+              <!-- <h2 class="card-title"></h2> -->
+              <div class="overlay">
+                <h4 class="text">click me</h4>
+              </div>
+              <div class="card-title" id="card1"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-2 mb-6">
+          <div class="card h-100">
+            <div class="card-body2 grow">
+              <!-- <h2 class="card-title"></h2> -->
+              <div class="overlay">
+                <h4 class="text">click me</h4>
+              </div>
+              <div class="card-title" id="card2"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-2 mb-6">
+          <div class="card h-100">
+            <div class="card-body3 grow">
+              <!-- <h2 class="card-title"></h2> -->
+              <div class="overlay">
+                <h4 class="text">click me</h4>
+              </div>
+              <div class="card-title" id="card3"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-2 mb-6">
+          <div class="card h-100">
+            <div class="card-body4 grow">
+              <!-- <h2 class="card-title"></h2> -->
+              <div class="overlay">
+                <h4 class="text">click me</h4>
+              </div>
+              <div class="card-title" id="card4"></div>
+            </div>
+          </div>
+        </div>
+
+        <nav class="navbar2 fixed-bottom navbar-light ">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><h2>Losses:</h2></a>
+              <h2 id="losses">0</h2>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"><h2>Wins:</h2></a>
+              <h2 id="wins">0</h2>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" class="startAgain"href="#"><h2>Start Again</h2></a>
+            </li> -->
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ///////////////JAVAscript///////////////////// -->
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+  </body>
+</html>

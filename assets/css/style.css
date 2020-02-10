@@ -30,7 +30,7 @@
     background-size: 120%;
     border-radius: 10px;
     margin: 10px;
-    z-index: 3;
+    /* z-index: 3; */
   }
   
   .card-body2 {
@@ -44,7 +44,7 @@
     background-size: 110%;
     border-radius: 10px;
     margin: 10px;
-    z-index: 3;
+    /* z-index: 3; */
   }
   
   .card-body3 {
@@ -58,7 +58,7 @@
     background-size: 160%;
     border-radius: 10px;
     margin: 10px;
-    z-index: 3;
+    /* z-index: 3; */
   }
   
   .card-body4 {
@@ -72,12 +72,13 @@
     background-size: 100%;
     border-radius: 10px;
     margin: 10px;
-    z-index: 3;
+    /* z-index: 3; */
   }
   
   #card-body {
     border-style: none;
     background-color: transparent;
+    padding: 0;
   }
   
   .overlay {
@@ -191,7 +192,7 @@
   }
   
   .navbar2 {
-    z-index: 1;
+    /* z-index: 1; */
     height: 140px;
     box-shadow: 25px 25px 180px 25px #026fe4;
     background-color: #026fe4;
@@ -203,6 +204,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 80px;
   }
   

@@ -18,6 +18,11 @@
     opacity: 0.2;
     filter: alpha(opacity=20);
   }
+
+  #card10.card-body {
+padding-top: 0;
+padding-bottom: 0;
+  }
   
   .card-body1 {
     background-image: url("../images/ms-OhCGmI.gif");
@@ -204,6 +209,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 50px;
   }
   

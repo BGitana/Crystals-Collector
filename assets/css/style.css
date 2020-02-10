@@ -23,6 +23,11 @@
     padding-top: 0;
     padding-bottom: 0;
   }
+
+  #card11.card-body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   
   .card-body1 {
     background-image: url("../images/ms-OhCGmI.gif");
@@ -166,7 +171,7 @@
     /* text-shadow: 2px 6px 4px #7bb7f7; */
     /* text-shadow: 20px 2px 10px  #86bdf7; */
     margin: 0px;
-    z-index: 4;
+    /* z-index: 4; */
   }
   
   h4 {
@@ -199,7 +204,7 @@
   }
 
   a.nav.link {
-      padding-bottom: 0;
+      padding: 0;
   }
   
   .row {

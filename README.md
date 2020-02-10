@@ -5,7 +5,7 @@
 ### Overview
 
 **Crystals Collector Game** is a fun and interactive game for web browsers. The user will be given a random number at the start of the game. There are four Gems with a hidden individual values. By clicking on any Gem you will add points to your total score. The user wins the game by matching the total score to random number. The hidden values of each Gem will update to a new every time the game is starts over.<br>
-Welcome to [Crystals Collector Game](https://bgitana.github.io/crystals-collector-game/). Enjoy!
+Welcome to [Crystals Collector Game](https://bgitana.github.io/Crystals-Collector/). Enjoy!
 
 
 ### Prerequisites
